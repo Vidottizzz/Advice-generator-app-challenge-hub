@@ -67,10 +67,22 @@ p {
     left: 8rem;
 }
 .circle-dice:hover {
-    background-color: hsl(150, 100%, 40%);
-    transform:  rotate(177deg);
-    transition-duration: 0.5s;
+
+    transform: rotate(360deg);
+    transition-duration: 0.8s;
+    box-shadow: 0 0 20px 3px #52ffa8;
 }
 .dice-img {
     margin: 0.25rem auto 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+
+    .advice-card {
+        width: 30rem;
+        height: 18rem;
+       }
+       .circle-dice {
+        left: 13rem;
+    }
 }
