@@ -23,6 +23,10 @@ body {
     background-color: var(--darkBlue);
 
 }
+.attribution {
+    padding-top: 5rem;
+    font-size: 1rem;
+}
 .advice-card {
  width: 20rem;
  height: 20rem;
