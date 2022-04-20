@@ -33,21 +33,20 @@ body {
 }
 
 .title-card {
+    font-size: ;
     border-radius: 1rem;
     color: var(--neonGreen);
-}
-h1 {
     letter-spacing: 0.2rem;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding-top: 2.5rem;
     background-color: var(--darkGrayishBlue);
-    
 }
+
 p {
     background-color: var(--darkGrayishBlue);
     padding-top: 2rem;
     color: var(--lightCyan);
-    font-size: 1.4rem;    
+    font-size: 1.35rem;    
     /* padding-bottom: 3rem; */
     margin: 0 1rem 1.3rem 1rem;
 }
@@ -55,6 +54,8 @@ p {
     width: 85%;
 }
 .circle-dice {
+    cursor: pointer;
+    border: none;
     margin: auto;
     width: 4rem;
     height: 4rem;
@@ -64,8 +65,11 @@ p {
     position: absolute;
     bottom: -2rem;
     left: 8rem;
-    
-
+}
+.circle-dice:hover {
+    background-color: hsl(150, 100%, 40%);
+    transform:  rotate(177deg);
+    transition-duration: 0.5s;
 }
 .dice-img {
     margin: 0.25rem auto 0 auto;
